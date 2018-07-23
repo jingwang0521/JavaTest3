@@ -22,7 +22,7 @@ public class DaoImpl implements Dao {
 			int city_id=rs.getInt(1);
 			String city=rs.getString(2) ;
 
-			System.out.println("城市id\t"+city_id+"|城市名称\t"+city);
+			System.out.println("id\t"+city_id+"|\t"+city);
 		}
 		return null;
 	}
@@ -47,7 +47,7 @@ public class DaoImpl implements Dao {
 			int Film_id=rs.getInt(2);
 			String title=rs.getString(3) ;
 
-			System.out.println("Film_id:\t"+Film_id+"\t|film名称:\t"+title+"\t|租用时间:\t"+rental_date+"\t");
+			System.out.println("\t"+Film_id+"\t|\t"+title+"\t|\t"+rental_date+"\t");
 		}
 		return null;
 	}}

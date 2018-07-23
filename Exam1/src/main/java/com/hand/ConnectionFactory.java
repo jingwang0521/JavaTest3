@@ -12,7 +12,7 @@ public class ConnectionFactory {
 	public static String url;
 	public static String user;
 	public static String password;
-	public  static int countryId;
+
 
 	private Connection conn;
 
